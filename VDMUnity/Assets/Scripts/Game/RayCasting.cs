@@ -75,7 +75,7 @@ public class RayCasting : MonoBehaviour
                 throwForce = Mathf.Clamp(throwForce, min_throwForce, max_throwForce);
                 projectileDraw_Script.DrawTrajectory(
                     container.position, 
-                    ((transform.forward * throwForce)/container.GetComponentInChildren<Rigidbody>().mass) /50);
+                    ((transform.forward * throwForce)/container.GetComponentInChildren<Rigidbody>().mass) * Time.fixedDeltaTime);
             }
             if (Input.GetKeyUp(throwButton))
                 Throw(raycastHit);

@@ -12,16 +12,6 @@ public class ProjectileDraw : MonoBehaviour
     }
     public void DrawTrajectory(Vector3 start_Position, Vector3 start_Velocity)
     {
-        /*
-         * Es. 
-         * maxTime = 5
-         * steps = 10
-         * i = 0 -> time = 0/10 * 5 = 0
-         * i = 1 -> time = 1/10 * 5 = 5/10
-         * i = 2 -> time = 2/10 * 5 = 5/5
-         * i = 5 -> time = 5/10 * 5 = 5/2
-         * i = 10 -> time = 10/10 * 5 = 5
-         */
         float time;
 
         // set line renderer max vertexes
@@ -52,4 +42,14 @@ public class ProjectileDraw : MonoBehaviour
     {
         lineRenderer.enabled = false;
     }
+    /*
+  * Es. 
+  * maxTime = 5
+  * steps = 10
+  * i = 0 -> time = 0/10 * 5 = 0
+  * i = 1 -> time = 1/10 * 5 = 5/10
+  * i = 2 -> time = 2/10 * 5 = 5/5
+  * i = 5 -> time = 5/10 * 5 = 5/2
+  * i = 10 -> time = 10/10 * 5 = 5
+  */
 }
