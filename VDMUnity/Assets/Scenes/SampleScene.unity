@@ -9406,7 +9406,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh120678
+  m_Name: pb_Mesh31218
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -18256,7 +18256,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   saveSystem: {fileID: 751862612}
   player: {fileID: 34291679}
-  cameraSensibility: 50
+  cameraSensibility: 0.5
   motionRange_UPDown: 90
 --- !u!114 &963194231
 MonoBehaviour:
